@@ -1,0 +1,59 @@
+.kontejner
+{
+    display: flex;
+    border:1px solid black;
+    /*flex-direction: column;*/
+}
+
+@media(max-width:830px)
+{
+.kontejner
+{
+    display: flex;
+    border:1px solid black;
+    flex-direction: column;
+}
+}
+
+.kontForma
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    /*flex-grow: 1;*/
+    border:1px solid black;
+    margin: 10px;
+    background-color: rgb(20, 220, 177);
+}
+
+.kontOs
+{
+   flex: 1 1 10px;
+   margin: 10px;
+   text-align: center;
+   background-color: rgb(255, 174, 0);
+   border:3px solid black;
+   flex-direction: column;
+}
+
+.kontOdeljenja
+{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(179, 255, 0);
+    border:1px solid black;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.red
+{
+    display: flex;
+    flex-grow: 1;
+}
+
+.nas
+{
+    text-align: center;
+}
+
