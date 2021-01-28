@@ -1,0 +1,14 @@
+Projekat apstrahuje uprošćenu verziju bolnice. Bolnica se sastoji od lekara i od osoba(pacijenata) 
+koje su hospitalizovane u njoj. 
+Forma sa leve strane omogućava dodavanje novog pacijenta, ili ažuriranje 
+podataka o pacijentu koji se već nalazi u bolnici. Svakog pacijenta jedinstveno identifikuje šifra. 
+Pored ostalih podataka, za osobu koja leži u bolnici se pamti i odeljenje na kom leži kao i ID lekara
+koji je zadužen za lečenje pacijenta. Svaki lekar ima svoju specijalizaciju, tako da je neophodno osobi
+koja se leči na određenom odeljenju dodeliti adekvatnog lekara. Lekari se ne unose u okviru ove aplikacije,
+kao ni podaci o bolnici, smatra se da su podaci o bolnici i lekarima već dodati u bazu podataka preko alata
+Data Azure Studio, i da ovom aplikacijom upravlja bolničar koji prima pacijente u bolnicu, ili ih otpušta iz nje.
+Na sredini stranice se nalazi grafička reprezentacija bolnice. Prikazani su pacijenti koji su smešteni 
+u bolnicu, kao i prazni kreveti. 
+Sa desne strane se nalazi forma za otpuštanje,gde se preko šifre pristupa 
+pacijentu i on se otpušta iz bolnice, pri čemu se ispisuje koji pacijent je upravo otpušten.
+Projekat je osmišljen tako da bi trebalo kreirati samo jednu instancu bolnice.
